@@ -1,0 +1,29 @@
+tpecar:~/workspace (master) $ ls
+README.md  nepotrebno.js  skripta.js  stili.css  stroboskop.gif  stroboskop.html
+tpecar:~/workspace (master) $ git add *
+tpecar:~/workspace (master) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+        new file:   oddaja/01korak/zaslonska_maska_cloud9.png
+        new file:   oddaja/01korak/zaslonska_maska_github_bitbucket.png
+        new file:   oddaja/02korak/github_kopija_repozitorija.txt
+
+tpecar:~/workspace (master) $ git commit -m 'Dodajanje navodil domače naloge'
+[master d8c1a02] Dodajanje navodil domače naloge
+ 4 files changed, 116 insertions(+), 2 deletions(-)
+ create mode 100644 oddaja/01korak/zaslonska_maska_cloud9.png
+ create mode 100644 oddaja/01korak/zaslonska_maska_github_bitbucket.png
+ create mode 100644 oddaja/02korak/github_kopija_repozitorija.txt
+tpecar:~/workspace (master) $ git push origin master
+Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 60.69 KiB | 0 bytes/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   2596e81..d8c1a02  master -> master
