@@ -1,0 +1,23 @@
+tpecar:~/workspace (dinamika) $ git add *
+tpecar:~/workspace (dinamika) $ git status
+On branch dinamika
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   oddaja/301korak/git_ukazi.txt
+        new file:   oddaja/301korak/github_repozitorij.txt
+        modified:   skripta.js
+tpecar:~/workspace (dinamika) $ git commit -m 'Dinamika gumba za ustavitev stroboskopa'
+[dinamika 2f87bd4] Dinamika gumba za ustavitev stroboskopa
+ 3 files changed, 40 insertions(+)
+ create mode 100644 oddaja/301korak/git_ukazi.txt
+ create mode 100644 oddaja/301korak/github_repozitorij.txt
+tpecar:~/workspace (dinamika) $ git push origin dinamika
+Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.28 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   0e9ba09..2f87bd4  dinamika -> dinamika
