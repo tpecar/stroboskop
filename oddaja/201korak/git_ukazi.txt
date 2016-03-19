@@ -1,0 +1,35 @@
+tpecar:~/workspace (master) $ git checkout -b izgled
+Switched to a new branch 'izgled'
+tpecar:~/workspace (izgled) $ git branch
+* izgled
+  master
+tpecar:~/workspace (izgled) $ git status
+On branch izgled
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   stroboskop.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        oddaja/104korak/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tpecar:~/workspace (izgled) $ git add *
+tpecar:~/workspace (izgled) $ git commit -m 'Dodajanje stilov spletne strani'
+[izgled 08de320] Dodajanje stilov spletne strani
+ 3 files changed, 35 insertions(+)
+ create mode 100644 oddaja/104korak/git_ukazi.txt
+ create mode 100644 oddaja/104korak/github_repozitorij.txt
+tpecar:~/workspace (izgled) $ git push origin izgled
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.27 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+ * [new branch]      izgled -> izgled
+tpecar:~/workspace (izgled) $ 
