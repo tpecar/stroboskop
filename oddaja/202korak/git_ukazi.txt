@@ -1,0 +1,24 @@
+tpecar:~/workspace (izgled) $ git add *
+tpecar:~/workspace (izgled) $ git status
+On branch izgled
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   oddaja/201korak/git_ukazi.txt
+        new file:   oddaja/201korak/github_repozitorij.txt
+        modified:   stroboskop.html
+
+tpecar:~/workspace (izgled) $ git commit -m 'Desna poravnava besedil'
+[izgled 467025e] Desna poravnava besedil
+ 3 files changed, 38 insertions(+), 2 deletions(-)
+ create mode 100644 oddaja/201korak/git_ukazi.txt
+ create mode 100644 oddaja/201korak/github_repozitorij.txt
+tpecar:~/workspace (izgled) $ git push origin izgled
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.19 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   08de320..467025e  izgled -> izgled
