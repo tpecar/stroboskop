@@ -1,0 +1,60 @@
+tpecar:~/workspace (izgled) $ git status
+On branch izgled
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        oddaja/204korak/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tpecar:~/workspace (izgled) $ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+tpecar:~/workspace (master) $ git merge izgled
+Updating 41ed306..d5d57c3
+Fast-forward
+ oddaja/104korak/git_ukazi.txt          | 33 +++++++++++++++++++++++++++++++++
+ oddaja/104korak/github_repozitorij.txt |  1 +
+ oddaja/201korak/git_ukazi.txt          | 35 +++++++++++++++++++++++++++++++++++
+ oddaja/201korak/github_repozitorij.txt |  1 +
+ oddaja/202korak/git_ukazi.txt          | 24 ++++++++++++++++++++++++
+ oddaja/202korak/github_repozitorij.txt |  1 +
+ oddaja/203korak/git_ukazi.txt          | 25 +++++++++++++++++++++++++
+ oddaja/203korak/github_repozitorij.txt |  3 +++
+ stili.css                              | 10 +++++++++-
+ stroboskop.html                        |  6 ++++--
+ 10 files changed, 136 insertions(+), 3 deletions(-)
+ create mode 100644 oddaja/104korak/git_ukazi.txt
+ create mode 100644 oddaja/104korak/github_repozitorij.txt
+ create mode 100644 oddaja/201korak/git_ukazi.txt
+ create mode 100644 oddaja/201korak/github_repozitorij.txt
+ create mode 100644 oddaja/202korak/git_ukazi.txt
+ create mode 100644 oddaja/202korak/github_repozitorij.txt
+ create mode 100644 oddaja/203korak/git_ukazi.txt
+ create mode 100644 oddaja/203korak/github_repozitorij.txt
+tpecar:~/workspace (master) $ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        oddaja/204korak/
+
+nothing added to commit but untracked files present (use "git add" to track)
+tpecar:~/workspace (master) $ git add *
+tpecar:~/workspace (master) $ 
+tpecar:~/workspace (master) $ git commit -m 'Združitev veje izgled v master'
+[master 861f069] Združitev veje izgled v master
+ 2 files changed, 33 insertions(+)
+ create mode 100644 oddaja/204korak/git_ukazi.txt
+ create mode 100644 oddaja/204korak/github_repozitorij.txt
+tpecar:~/workspace (master) $ git push origin master
+Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.10 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   41ed306..861f069  master -> master
+tpecar:~/workspace (master) $ 
