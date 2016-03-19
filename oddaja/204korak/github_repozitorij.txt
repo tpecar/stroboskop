@@ -1,0 +1,3 @@
+https://github.com/tpecar/stroboskop/compare/d5d57c32f3421f559919c6e2a7c8daf686b7921f
+
+https://rawgit.com/tpecar/stroboskop/izgled/stroboskop.html
