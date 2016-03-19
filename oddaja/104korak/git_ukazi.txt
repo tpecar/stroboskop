@@ -1,0 +1,33 @@
+tpecar:~/workspace (master) $ git rm nepotrebno.js 
+tpecar:~/workspace (master) $ git status
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   jscolor.js
+        deleted:    nepotrebno.js
+        renamed:    oddaja/01korak/zaslonska_maska_cloud9.png -> oddaja/101korak/zaslonska_maska_cloud9.png
+        renamed:    oddaja/01korak/zaslonska_maska_github_bitbucket.png -> oddaja/101korak/zaslonska_maska_github_bitbucket.png
+        renamed:    oddaja/02korak/github_kopija_repozitorija.txt -> oddaja/102korak/github_kopija_repozitorija.txt
+        new file:   oddaja/103korak/git_ukazi.txt
+        new file:   oddaja/103korak/github_repozitorij.txt
+
+tpecar:~/workspace (master) $ git commit -m 'Priprava potrebnih JavaScript knjižnic'
+[master 41ed306] Priprava potrebnih JavaScript knjižnic
+ 7 files changed, 1874 insertions(+), 10 deletions(-)
+ create mode 100644 jscolor.js
+ delete mode 100644 nepotrebno.js
+ rename oddaja/{01korak => 101korak}/zaslonska_maska_cloud9.png (100%)
+ rename oddaja/{01korak => 101korak}/zaslonska_maska_github_bitbucket.png (100%)
+ rename oddaja/{02korak => 102korak}/github_kopija_repozitorija.txt (100%)
+ create mode 100644 oddaja/103korak/git_ukazi.txt
+ create mode 100644 oddaja/103korak/github_repozitorij.txt
+tpecar:~/workspace (master) $ git push origin master
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 13.79 KiB | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   d8c1a02..41ed306  master -> master
