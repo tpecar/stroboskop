@@ -1,0 +1,3 @@
+https://github.com/tpecar/stroboskop/compare/0e9ba09b4e7a1c63046bc555bb4cae677f8e8563
+
+https://rawgit.com/tpecar/stroboskop/dinamika/stroboskop.html
