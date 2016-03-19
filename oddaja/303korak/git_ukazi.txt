@@ -1,0 +1,24 @@
+tpecar:~/workspace (dinamika) $ git status
+On branch dinamika
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   oddaja/302korak/github_repozitorij.txt
+        modified:   skripta.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tpecar:~/workspace (dinamika) $ git add *
+tpecar:~/workspace (dinamika) $ git commit -m 'Dinamika gumba za ustavitev stroboskopa'
+[dinamika 1899765] Dinamika gumba za ustavitev stroboskopa
+ 2 files changed, 9 insertions(+), 5 deletions(-)
+tpecar:~/workspace (dinamika) $ git push origin dinamika
+Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 636 bytes | 0 bytes/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+To git@github.com:tpecar/stroboskop.git
+   4f3cd73..1899765  dinamika -> dinamika
+tpecar:~/workspace (dinamika) $ 
